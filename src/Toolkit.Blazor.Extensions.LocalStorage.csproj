@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageId>Snail.Toolkit.Blazor.Extensions.LocalStorage</PackageId>
+        <PackageTags>Blazor, LocalStorage</PackageTags>
+        <Title>Toolkit.Blazor.Extensions.LocalStorage</Title>
+        <Authors>Toolkit</Authors>
+        <Description>Extension for the framework Blazor</Description>
+        <RepositoryUrl>https://github.com/orldev/Toolkit.Blazor.Extensions.LocalStorage</RepositoryUrl>
+        <Copyright>Toolkit, 2023</Copyright>
+        <PackageProjectUrl>https://github.com/orldev/Toolkit.Blazor.Extensions.LocalStorage</PackageProjectUrl>
+        <RepositoryType>GitHub</RepositoryType>
+        <!-- SourceLink specific details: https://github.com/dotnet/sourcelink/blob/master/README.md -->
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Snail.Toolkit.Blazor.Extensions.Cryptography" Version="1.0.0" />
+    </ItemGroup>
+</Project>
