@@ -2,9 +2,6 @@
 
 Secure client-side localStorage implementation for Blazor applications with automatic encryption.
 
-[![NuGet Version](https://img.shields.io/nuget/v/Toolkit.Blazor.Extensions.LocalStorage.svg)](https://www.nuget.org/packages/Toolkit.Blazor.Extensions.LocalStorage)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
 ## Features
 
 - **Secure Storage**: All values automatically encrypted using AES encryption

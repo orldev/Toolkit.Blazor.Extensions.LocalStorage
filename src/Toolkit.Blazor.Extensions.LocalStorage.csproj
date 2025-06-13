@@ -23,6 +23,6 @@
         <None Include="..\README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
     <ItemGroup>
-      <PackageReference Include="Snail.Toolkit.Blazor.Extensions.Cryptography" Version="1.0.0" />
+      <PackageReference Include="Snail.Toolkit.Blazor.Extensions.Cryptography" Version="1.0.1" />
     </ItemGroup>
 </Project>
